@@ -3,6 +3,24 @@
   <channel>
     <title>Sentra</title>
         <item>
+            <title>1.2.2</title>
+            <pubDate>Fri, 24 Apr 2026 07:07:15 +0000</pubDate>
+            <sparkle:channel>release</sparkle:channel>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/aidenmi8/zion-updates/releases/download/1.2.2/Sentra-1.2.2.dmg" length="40298523" type="application/octet-stream" sparkle:edSignature="Rh97lok0ke+PrPDQSdDBl8Q3bjvVAoVJnmkOg6Gpbf2SwyrMmqqHHapiPC0ArQiflSG602C4fZtV7Vb5PD2YCg=="/>
+            <description sparkle:format="markdown"><![CDATA[
+## What's Changed
+
+- Updated the Sentra installer background and production update copy so release surfaces no longer show old product branding.
+- Cleaned the About panel to show a simple version/build line while preserving full release provenance in diagnostics.
+- Fixed the Tools management view so available tool counts map to visible tool rows.
+- Refreshed visible Sentra branding for built-in themes, CLI setup copy, onboarding strings, and primary plugin catalog cards.
+]]></description>
+        </item>
+        <item>
             <title>1.2.1</title>
             <pubDate>Fri, 24 Apr 2026 04:00:19 +0000</pubDate>
             <sparkle:channel>release</sparkle:channel>
