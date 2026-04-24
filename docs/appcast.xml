@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sentra</title>
+        <item>
+            <title>1.2.1</title>
+            <pubDate>Fri, 24 Apr 2026 03:30:48 +0000</pubDate>
+            <sparkle:channel>release</sparkle:channel>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/aidenmi8/zion-updates/releases/download/1.2.1/Sentra-1.2.1.dmg" length="40298130" type="application/octet-stream" sparkle:edSignature="7QtJ6O9EJSHjZiqWCcmO5IgWwXRDjiANHisJOSjR1OTFrg71WKSWx26Z1N0HGINGfeW9RHxuXndr7yDgWTV7BQ=="/>
+        </item>
+  </channel>
+</rss>
