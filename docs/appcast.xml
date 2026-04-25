@@ -3,6 +3,33 @@
   <channel>
     <title>Sentra</title>
         <item>
+            <title>1.2.5</title>
+            <pubDate>Sat, 25 Apr 2026 01:35:55 +0000</pubDate>
+            <sparkle:channel>release</sparkle:channel>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/aidenmi8/zion-updates/releases/download/1.2.5/Sentra-1.2.5.dmg" length="40497186" type="application/octet-stream" sparkle:edSignature="aLmzfdpy55Lci4Dtgbq+4nndjQ3YJR6HhFpNSUIWo3OExLk9jzKKmH5p3Al4c0SL+OMFhphf7Y4InIiyvOjaBw=="/>
+            <description sparkle:format="markdown"><![CDATA[
+# Sentra 1.2.5
+
+## Telegram And Plugin Updates
+
+- Rebrands the Telegram `/start` greeting from Osaurus to Sentra while keeping the compatible `osaurus.telegram` plugin ID and webhook routes.
+- Updates the Sentra plugin catalog entry for Telegram to the new plugin artifact version once published through `aidenmi8/sentra-ai`.
+
+## Upstream 0.17.6
+
+- Ports compatible Osaurus `0.17.6` fixes for request validation, schema coercion, provider request encoding, attachment/shared artifact trust boundaries, speech decoding, model performance filtering, and package pins.
+- Keeps Sentra branding, registry targeting, and unified chat-loop behavior intact.
+
+## Agent Configuration
+
+- Clarifies Quick Actions copy so `Chat` and `Work` are presented as empty-state shortcut groups, not separate runtime modes.
+]]></description>
+        </item>
+        <item>
             <title>1.2.4</title>
             <pubDate>Fri, 24 Apr 2026 22:55:26 +0000</pubDate>
             <sparkle:channel>release</sparkle:channel>
