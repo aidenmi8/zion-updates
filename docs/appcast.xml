@@ -3,6 +3,21 @@
   <channel>
     <title>Sentra</title>
         <item>
+            <title>1.3.0</title>
+            <pubDate>Fri, 01 May 2026 21:03:39 +0000</pubDate>
+            <sparkle:channel>release</sparkle:channel>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/aidenmi8/zion-updates/releases/download/1.3.0/Sentra-1.3.0.dmg" length="41415200" type="application/octet-stream" sparkle:edSignature="bPCV+4zRfeUrAQFWqaCTiaDT+NTzkeyiZZj2AF580tYE4ynJ/kDT5Oy/q9IajtCF8cC5hsn6do0w+NDzF7M2Bg=="/>
+            <description sparkle:format="markdown"><![CDATA[
+## What's Changed
+
+- Sentra 1.3.0 is available with maintenance fixes and update improvements.
+]]></description>
+        </item>
+        <item>
             <title>1.2.5</title>
             <pubDate>Sat, 25 Apr 2026 01:35:55 +0000</pubDate>
             <sparkle:channel>release</sparkle:channel>
