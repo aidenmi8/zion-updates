@@ -3,6 +3,37 @@
   <channel>
     <title>Sentra</title>
         <item>
+            <title>1.3.4</title>
+            <pubDate>Mon, 11 May 2026 17:30:11 +0000</pubDate>
+            <sparkle:channel>release</sparkle:channel>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/aidenmi8/zion-updates/releases/download/1.3.4/Sentra-1.3.4.dmg" length="36112314" type="application/octet-stream" sparkle:edSignature="OeTwxZSF3orabnDh1ViP1/bNBzkMSpf6p0N2tyr+lBecWr+d0nZxKtgiv5X1pNzVMo51Xvo2WQ5KPCKRbXtZAA=="/>
+            <description sparkle:format="markdown"><![CDATA[
+# Sentra 1.3.4
+
+## Persistence And Memory
+
+- Restores chat-history and memory-context routing so continuation prompts can recover recent work after closing and reopening Sentra.
+- Preserves canonical `~/.sentra` state while keeping legacy `~/.osaurus` references compatibility-only.
+- Adds regression coverage around memory recall, chat-session cleanup, and local persistence drains.
+
+## Agents And Sandbox
+
+- Restores agent avatar color orbs in the sidebar and agent creation flows.
+- Fixes sandbox Stop so a manual stop remains paused for the current app session instead of being restarted by autonomous agent registration.
+- Keeps the Auto-Start preference unchanged; explicit Start, Provision, or Reset clears the manual pause.
+
+## Telegram And Tooling
+
+- Stabilizes Telegram plugin trust/configuration checks and read-only connectivity gates.
+- Hardens CLI launch and audit behavior used by plugin and tool validation paths.
+- Adds focused coverage for sandbox tool registration, chat sandbox controls, avatar persistence, and CLI app control flows.
+]]></description>
+        </item>
+        <item>
             <title>1.3.2</title>
             <pubDate>Thu, 07 May 2026 17:04:45 +0000</pubDate>
             <sparkle:channel>release</sparkle:channel>
