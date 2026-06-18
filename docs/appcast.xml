@@ -3,6 +3,256 @@
   <channel>
     <title>Sentra</title>
         <item>
+            <title>1.3.7</title>
+            <pubDate>Thu, 18 Jun 2026 03:14:13 +0000</pubDate>
+            <sparkle:channel>release</sparkle:channel>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.3.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/aidenmi8/zion-updates/releases/download/1.3.7/Sentra-1.3.7.dmg" length="46689324" type="application/octet-stream" sparkle:edSignature="aKcIojzxwbBAqLCaR8ZNolxjWCcXXZwB5QyTayiloEAsF0IvQID0wTXEXKoybDc3dzvFT049hUHtCzdVW0anCQ=="/>
+            <description sparkle:format="markdown"><![CDATA[
+## What's Changed
+
+- Remove remaining Osaurus invite copy from Sentra UI (#466) by @aidenmi8
+- Remove Osaurus storage copy from Sentra UI (#464) by @aidenmi8
+- Gate expensive GitHub Actions by explicit opt-in (#465) by @aidenmi8
+- Selective Osaurus UI intake for Zion (#463) by @aidenmi8
+- Prepare Sentra 1.3.5 release (#458) by @aidenmi8
+- Stabilize clawpatch full gate (#457) by @aidenmi8
+- Register pairing approval shortcuts (#456) by @aidenmi8
+- Cover bundle command routing (#455) by @aidenmi8
+- Persist speech model fallback selection (#454) by @aidenmi8
+- Cover evals CLI argument contracts (#453) by @aidenmi8
+- Restore empty clipboard after paste (#452) by @aidenmi8
+- Preserve skill enabled state on create (#451) by @aidenmi8
+- Exercise app unit tests in shared scheme (#450) by @aidenmi8
+- Clarify model download margin boundary (#449) by @aidenmi8
+- Suppress What's New auto-show on downgrades (#448) by @aidenmi8
+- Tighten duplicate read optimization test (#447) by @aidenmi8
+- Reject file collisions in ensureExists (#446) by @aidenmi8
+- Respect exclusion path boundaries in fingerprints (#445) by @aidenmi8
+- Cover CLI parsing and dispatch (#444) by @aidenmi8
+- Require fast tool success payload assertion (#443) by @aidenmi8
+- Respect home path boundaries in watcher display (#442) by @aidenmi8
+- Report host workspace cleanup failures (#441) by @aidenmi8
+- Fail inline artifacts on write errors (#440) by @aidenmi8
+- Validate custom provider onboarding ports (#439) by @aidenmi8
+- Keep unknown model sizes last when sorting (#438) by @aidenmi8
+- Assert management audit UI before launch screenshot (#437) by @aidenmi8
+- Exercise MetalGate concurrent embedding entries (#436) by @aidenmi8
+- Preserve max completion tokens on model rewrite (#435) by @aidenmi8
+- Strengthen router models endpoint test (#434) by @aidenmi8
+- Guard theme toast dismissal (#433) by @aidenmi8
+- Guard watcher success toast dismissal (#432) by @aidenmi8
+- Add pairing deep link router coverage (#431) by @aidenmi8
+- Flush remote agent note autosave on disappear (#430) by @aidenmi8
+- Escape plugin error JSON bodies (#429) by @aidenmi8
+- Validate identity request signing URLs (#428) by @aidenmi8
+- Detect missed recurring schedule runs (#427) by @aidenmi8
+- Report schedule batch save failures (#426) by @aidenmi8
+- Await networking test server cleanup (#425) by @aidenmi8
+- Assert UI audit launch readiness (#424) by @aidenmi8
+- Surface usage SQLite step failures (#423) by @aidenmi8
+- Balance directory picker security scope access (#422) by @aidenmi8
+- Use deterministic manifest dylib fixture (#421) by @aidenmi8
+- Cover compact tool index output (#420) by @aidenmi8
+- Preserve unrelated document registry entries in unregister test (#419) by @aidenmi8
+- Tighten Vectura negative-path tests (#418) by @aidenmi8
+- Keep onboarding welcome reveal monotonic (#417) by @aidenmi8
+- Tokenize text similarity on word boundaries (#416) by @aidenmi8
+- Replace existing ZIP on skill export (#415) by @aidenmi8
+- Observe agent manager in app menus (#414) by @aidenmi8
+- Cover multimodal video in all-roles mapping test (#413) by @aidenmi8
+- Expose argument coercion expectations init (#412) by @aidenmi8
+- Disable audit anchor hit testing (#411) by @aidenmi8
+- Encode sandbox plugin booleans as strings (#410) by @aidenmi8
+- Normalize voice configuration ranges (#409) by @aidenmi8
+- Apply custom theme gradient angles (#408) by @aidenmi8
+- Serialize debug log appends (#407) by @aidenmi8
+- Refresh expanded tool arguments on update (#406) by @aidenmi8
+- Use service clock for usage exports (#405) by @aidenmi8
+- Allow onboarding height preference to shrink (#404) by @aidenmi8
+- Clean up hotkey recorder monitors on dismantle (#403) by @aidenmi8
+- Strengthen incremental save baseline test (#402) by @aidenmi8
+- Stabilize inference progress tests (#401) by @aidenmi8
+- Recognize full IPv4 loopback range (#400) by @aidenmi8
+- Clarify launch audit test names (#399) by @aidenmi8
+- Limit persisted memory text values (#398) by @aidenmi8
+- Clamp MethodScore counters (#397) by @aidenmi8
+- Prove ModelLease waiters block in tests (#396) by @aidenmi8
+- Serialize native plugin reload tests (#395) by @aidenmi8
+- Fail closed on OAuth state random failures (#394) by @aidenmi8
+- Keep disabled skills out of search index (#393) by @aidenmi8
+- Handle empty Whats New releases (#392) by @aidenmi8
+- Avoid plugin loading for pure eval suites (#391) by @aidenmi8
+- Stabilize schedule card identity colors (#390) by @aidenmi8
+- Check Xcode workspace metadata permissions (#389) by @aidenmi8
+- Clean up status audit test windows (#388) by @aidenmi8
+- Label shared toggle row switches (#387) by @aidenmi8
+- Serialize TTFT trace file appends (#386) by @aidenmi8
+- Isolate uninitialized memory search tests (#385) by @aidenmi8
+- Require decoding errors for unknown tool choices (#384) by @aidenmi8
+- Fallback blank artifact filenames to path basename (#383) by @aidenmi8
+- Strip YAML inline comments from method references (#382) by @aidenmi8
+- Fail stale repository branch refreshes (#381) by @aidenmi8
+- Use distribution signing for release archives (#380) by @aidenmi8
+- Pass through empty toast overlay hits (#379) by @aidenmi8
+- Full redraw chart spec changes (#378) by @aidenmi8
+- Exercise generation default resolution through adapter (#377) by @aidenmi8
+- Isolate capability load buffer test (#376) by @aidenmi8
+- Retain transcription test field text (#375) by @aidenmi8
+- Resolve capability group toggles from source buckets (#374) by @aidenmi8
+- Invalidate stale model picker rows (#373) by @aidenmi8
+- Wait for async system permission decisions (#372) by @aidenmi8
+- Fix synchronous remote model aggregation (#371) by @aidenmi8
+- Return core model timeouts without waiting for cancellation (#370) by @aidenmi8
+- Return tool timeouts without waiting for cancellation (#369) by @aidenmi8
+- Preserve required tool choice semantics (#368) by @aidenmi8
+- Backfill skill search index on initialization (#367) by @aidenmi8
+- Discover tools from loaded MCP bundles (#366) by @aidenmi8
+- Make transcription cancel discard captured text (#365) by @aidenmi8
+- Invalidate stale MCP provider connects (#364) by @aidenmi8
+- Add initialized method search regression tests (#363) by @aidenmi8
+- Serialize MLX error handler installation (#362) by @aidenmi8
+- Verify preflight fallback model routing (#361) by @aidenmi8
+- Surface sandbox resource reset failures (#360) by @aidenmi8
+- Preserve skill metadata when editing (#359) by @aidenmi8
+- Keep latest dev dylib for asset reloads (#358) by @aidenmi8
+- Narrow Nemotron thinking profile matching (#357) by @aidenmi8
+- Keep memory transcript tests time-relative (#356) by @aidenmi8
+- Inspect top-level ok in tool envelopes (#355) by @aidenmi8
+- Preserve first user task during context trimming (#354) by @aidenmi8
+- Gate memory write success toasts on persistence (#353) by @aidenmi8
+- Count episode memories in agent memory list (#352) by @aidenmi8
+- Fill preflight ranking from allowed catalog (#351) by @aidenmi8
+- Spill appendTurn attachments before persistence (#350) by @aidenmi8
+- Scope ModelManager background fetch suppression in tests (#349) by @aidenmi8
+- Ignore stale remote model search completions (#348) by @aidenmi8
+- Deny overlapping tool approval prompts (#347) by @aidenmi8
+- Deny overlapping pairing prompts (#346) by @aidenmi8
+- Fix background task completion multi-awaiters (#345) by @aidenmi8
+- Preserve newer memory config cache writes (#344) by @aidenmi8
+- Serialize VAD start and menu toggles (#343) by @aidenmi8
+- Observe schedule and watcher menu state (#342) by @aidenmi8
+- Avoid self-cancelling usage refresh tasks (#341) by @aidenmi8
+- Prevent duplicate manual schedule runs (#340) by @aidenmi8
+- Validate persisted schedule frequencies (#339) by @aidenmi8
+- Use semantic ordering for tools upgrade (#338) by @aidenmi8
+- Fix prerelease SemVer ordering (#337) by @aidenmi8
+- Normalize stored theme metadata ids (#336) by @aidenmi8
+- Sync chat window session index (#335) by @aidenmi8
+- Observe slash command registry changes (#334) by @aidenmi8
+- Strengthen SQLCipher guard tests (#333) by @aidenmi8
+- Wire folder undo root lifecycle (#332) by @aidenmi8
+- Fix FlowLayout intrinsic width (#331) by @aidenmi8
+- Show retry state for identity unlock failures (#330) by @aidenmi8
+- Collect media blob refs on session delete (#329) by @aidenmi8
+- Assert ModelRuntime actor isolation (#328) by @aidenmi8
+- Test document parser at size cap (#327) by @aidenmi8
+- Reject non-positive cron steps (#326) by @aidenmi8
+- Fix empty custom wake phrase matching (#325) by @aidenmi8
+- Cancel model download tasks promptly (#324) by @aidenmi8
+- Await sandbox integration cleanup (#323) by @aidenmi8
+- Honor plugin minimum host versions (#322) by @aidenmi8
+- Strengthen usage export assertions (#321) by @aidenmi8
+- Serialize identity counter allocation (#320) by @aidenmi8
+- Stabilize agent todo item IDs (#319) by @aidenmi8
+- Stabilize content block identity (#318) by @aidenmi8
+- Surface CLI NDJSON stream errors (#317) by @aidenmi8
+- Fix acknowledgements generator root discovery (#316) by @aidenmi8
+- Guard Rust scaffold host API logging (#315) by @aidenmi8
+- Fix tokenizer tool spec byte stability (#314) by @aidenmi8
+- Tighten access key rejection assertions (#313) by @aidenmi8
+- Block plugin HTTP hostnames resolving private (#312) by @aidenmi8
+- Cover sandbox artifact source containment (#311) by @aidenmi8
+- Restore chat sandbox test globals on failure (#310) by @aidenmi8
+- Restore MCP tool configuration override in tests (#309) by @aidenmi8
+- Register sandbox plugin tools after editor saves (#308) by @aidenmi8
+- Serialize sandbox registry test mutations (#307) by @aidenmi8
+- Avoid document registry callbacks while locked (#306) by @aidenmi8
+- Reject stale onboarding provider test results (#305) by @aidenmi8
+- Serialize repository global-state tests (#304) by @aidenmi8
+- Harden skill temp root restoration (#303) by @aidenmi8
+- Stop VAD test stream before restart (#302) by @aidenmi8
+- Fix MCP used server parsing (#301) by @aidenmi8
+- Fix CLI config legacy port fallback (#300) by @aidenmi8
+- Use stored provider secrets in edit tests (#299) by @aidenmi8
+- Allow clearing plugin config secrets (#298) by @aidenmi8
+- Preserve provider image content parts (#297) by @aidenmi8
+- Reject invalid cron schedule saves (#296) by @aidenmi8
+- Round-trip toast URL actions (#295) by @aidenmi8
+- Preflight chat attachment sizes (#294) by @aidenmi8
+- Honor earliest Foundation stop sequence (#293) by @aidenmi8
+- Serialize tool error envelopes safely (#292) by @aidenmi8
+- Keep eval model overrides in memory (#291) by @aidenmi8
+- Let bundle load cleanup run on interrupt (#290) by @aidenmi8
+- Retain failed file undo operations (#289) by @aidenmi8
+- Preserve agent behavior when duplicating (#288) by @aidenmi8
+- Preserve watcher parameters on edit (#287) by @aidenmi8
+- Keep built-in slash commands out of user store (#286) by @aidenmi8
+- Prune agent memory vectors with SQL rows (#285) by @aidenmi8
+- Report clear memory deletion failures (#284) by @aidenmi8
+- Clear stale clipboard text on unsupported selection (#283) by @aidenmi8
+- Hide mutable trusted spec roots from production API (#282) by @aidenmi8
+- Scope pending memory signals by agent (#281) by @aidenmi8
+- Fail eval CLI when report output cannot be written (#280) by @aidenmi8
+- Reject invalid sandbox plugin metadata saves (#279) by @aidenmi8
+- Make sandbox agent map mutations atomic (#278) by @aidenmi8
+- Preserve OAuth refresh tokens on keychain save failure (#277) by @aidenmi8
+- Surface sandbox plugin library persistence failures (#276) by @aidenmi8
+- Use security-scoped access for theme imports (#275) by @aidenmi8
+- Surface theme save failures (#274) by @aidenmi8
+- Skip metadata-only chat recovery (#273) by @aidenmi8
+- Replace pulled model files safely (#272) by @aidenmi8
+- Surface watcher save failures (#271) by @aidenmi8
+- Constrain tools uninstall path removal (#270) by @aidenmi8
+- Fail tools verify on missing artifacts (#269) by @aidenmi8
+- Fail closed on invite nonce random failures (#268) by @aidenmi8
+- Fail closed on identity random failures (#267) by @aidenmi8
+- Block unsafe markdown image sources (#266) by @aidenmi8
+- Keep secret prompt open on save failure (#265) by @aidenmi8
+- Preserve MCP keychain secrets on save failure (#264) by @aidenmi8
+- Cover plugin secret deletion scope (#263) by @aidenmi8
+- Balance watcher bookmark security scopes (#262) by @aidenmi8
+- Harden memory vector agent buckets (#261) by @aidenmi8
+- Harden artifact markdown link boundaries (#260) by @aidenmi8
+- Fail security-state mutations when persistence fails (#259) by @aidenmi8
+- Stabilize relay host auth tests (#258) by @aidenmi8
+- Authenticate forged relay host plugin context (#257) by @aidenmi8
+- Omit secret provider headers from config JSON (#256) by @aidenmi8
+- Contain skill file operations (#255) by @aidenmi8
+- Validate pull remote file paths (#254) by @aidenmi8
+- Reject sandbox plugin id path escapes (#253) by @aidenmi8
+- Reject sandbox sibling-prefix paths (#252) by @aidenmi8
+- Recheck plugin HTTP redirects for SSRF (#251) by @aidenmi8
+- Reject folder-tool symlink escapes (#250) by @aidenmi8
+- Fail partial storage migration without stamping (#249) by @aidenmi8
+- [codex] Integrate Sentra upstream intake with clawpatch queue (#248) by @aidenmi8
+- Preserve legacy custom themes during decode (#240) by @aidenmi8
+- Fix plugin secret account collisions (#235) by @aidenmi8
+- Require auth for distributed control notifications (#247) by @aidenmi8
+- Fix plugin shutdown task-event queue race (#246) by @aidenmi8
+- Keep manifest host API alive for v2 plugins (#245) by @aidenmi8
+- Require confirmation before sandbox security reset (#244) by @aidenmi8
+- Harden sandbox plugin install shell handling (#243) by @aidenmi8
+- Quote sandbox install package arguments safely (#242) by @aidenmi8
+- Fail closed when storage migration is not ready (#241) by @aidenmi8
+- Fail storage key rotation on osec rewrap errors (#239) by @aidenmi8
+- Bind agent invite signatures to relay metadata (#238) by @aidenmi8
+- Require focus for tool prompt shortcuts (#237) by @aidenmi8
+- Preserve master key on replacement failure (#236) by @aidenmi8
+- Fix storage key first-run race (#234) by @aidenmi8
+- Fix MCP disabled tool invocation (#233) by @aidenmi8
+- Fix plugin trust and multi-agent relay registration (#5) by @aidenmi8
+- [codex] Restore legacy chat history and harden sandbox quit (#4) by @aidenmi8
+- [codex] Preserve chat history across updates (#2) by @aidenmi8
+- [codex] Refresh Sentra identity assets (#1) by @aidenmi8
+
+**Full Changelog**: https://github.com/aidenmi8/zion/compare/...0.1.0
+]]></description>
+        </item>
+        <item>
             <title>1.3.6</title>
             <pubDate>Wed, 17 Jun 2026 21:22:23 +0000</pubDate>
             <sparkle:channel>release</sparkle:channel>
